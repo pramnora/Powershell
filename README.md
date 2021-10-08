@@ -1,5 +1,5 @@
 # Powershell
-Powershell
+Powershell codes
 
 ## Introduction
 
@@ -8,6 +8,12 @@ Powershell is a CLI/Command Line Interface UI/User Interface...rather like the o
 There are two main Powershell versions...
 
 - Windows Powershell (powershell.exe)
-- Powershell Core (pshw.exe/works cross platform)
+- Powershell Core (pshw.exe/works cross platform: Windows/Linux/Mac/-etc.)
 
+## Links
+
+### YouTube Videos
+
+PowerShell Master Class - PowerShell Fundamentals  
+- https://www.youtube.com/watch?v=sQm4zRvvX58  
 
