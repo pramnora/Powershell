@@ -12,8 +12,19 @@ There are two main Powershell versions...
 
 ## Links
 
+### Downloads
+
+Try the new cross platform Powershell...  
+- https://aka.ms/pscore6  
+
 ### YouTube Videos
 
-PowerShell Master Class - PowerShell Fundamentals  
+GitHub Powershell  
+- https://github.com/PowerShell/PowerShell  
+ 
+PowerShell Master Class - PowerShell Fundamentals    
 - https://www.youtube.com/watch?v=sQm4zRvvX58  
+
+
+
 
