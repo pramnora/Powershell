@@ -16,6 +16,8 @@ There are two main Powershell versions...
 
 >> wsl --install
 
+...also, installs Linux Ubuntu/-etc.  
+
 ## Links
 
 ### Downloads
