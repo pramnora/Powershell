@@ -10,6 +10,12 @@ There are two main Powershell versions...
 - Windows Powershell (powershell.exe)
 - Powershell Core (pshw.exe/works cross platform: Windows/Linux/Mac/-etc.)
 
+## Installation
+
+### Install: WSL/Windows Subsystem for Linux
+
+>> wsl --install
+
 ## Links
 
 ### Downloads
