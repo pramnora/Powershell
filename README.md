@@ -12,7 +12,7 @@ There are two main Powershell versions...
 
 **NOTE**: Powershell, is a **huge** system...giving one full control over the operating system;  
  and, as such, it contains many different *cmdlets*/as well as, includes *programming*;   
- so, it can take quite a while to learn/remember everything;  
+ so, it can take quite a while to learn/remember everything...;  
  but, if you cannot remember; then, it's also possible to use help/search.  
 
 ## Powershell ISE/Integrated Scripting Environment
