@@ -10,6 +10,10 @@ There are two main Powershell versions...
 - Windows Powershell (powershell.exe)
 - Powershell Core (pshw.exe/works cross platform: Windows/Linux/Mac/-etc.)
 
+## Powershell ISE/Integrated Scripting Environment
+
+Powershell ISE/Integrated Scripting Environment...which makes it easier to write/debug longer scripts...as opposed to running shor snippets of code.
+
 ## Installation
 
 ### Install: WSL/Windows Subsystem for Linux
