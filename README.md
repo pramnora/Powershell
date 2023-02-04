@@ -48,10 +48,13 @@ $testVar2 = "Words containing spaces should be double quoted."
 
 - displaying the variable value on screen...   
 
-echo testVar1  
-write testVar2   
+echo $testVar1  
+write $testVar2   
 
-...each of the above is equivalent; meaning, both echo/write are, in fact, aliases for cmdlet: Write-Output.     
+...each of the above is equivalent; meaning, both 'echo/write' are, in fact, aliases for cmdlet: Write-Output.     
+
+**NOTE**: When displaying a variable value...you must remember to include the preceeding dollar sign symbol: $VarName/    
+otherwise, all you will get displayed back as output is just merely a string literal/and, NOT the variable's value.   
 
 ## Powershell Help
 
