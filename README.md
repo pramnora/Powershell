@@ -56,6 +56,24 @@ write $testVar2
 **NOTE**: When displaying a variable value...you must remember to include the preceeding dollar sign symbol: $VarName/    
 otherwise, all you will get displayed back as output is just merely a string literal/and, NOT the variable's value.   
 
+## Powershell Filing
+
+Dir > file01.txt  
+
+...would send the output of what is the current folder directory listing...; 
+into a file called: file01.txt.  
+
+There are two ways you can use to read the file...
+
+gc file01.txt   
+type file01.text  
+
+...both are equivalent; they will display onscreen the file's contents without actually opening up the file for running.  
+
+If you need to edit/change the file...you can use:  
+
+notepad.exe file01.txt  
+
 ## Powershell Help
 
 Get-Help
