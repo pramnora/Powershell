@@ -34,6 +34,7 @@ $PSVersionTable.PSVersion
 
 Write-Host "Hello, world!"    
 Write-Output "Hello, world!"  
+Write "Hello, world!"  
 Echo "Hello, world!"  
 
 ...each of the above is equivalent.
