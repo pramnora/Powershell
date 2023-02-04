@@ -22,6 +22,8 @@ or, in this particular case, doesn't display it on screen...just grabs the file 
 > file01.txt  (directs the file contents to be stored inside of the named file)
 
 NOTE: If the file01.txt does NOT exist; then, it will be newly created from scratch.
+
 If the file01.txt does exist; then, it's contents will be overwritten.
+
 (In order to append to the file without over writing use: ac - Add-Content;
  which adds any new content to the bottom of the file.)
