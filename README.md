@@ -33,6 +33,12 @@ GitHub Powershell
 PowerShell Master Class - PowerShell Fundamentals    
 - https://www.youtube.com/watch?v=sQm4zRvvX58  
 
+Windows PowerShell [01] Introduction  - Channel: John Hammond  
+- https://www.youtube.com/watch?v=TUNNmVeyjW0&t=15s  
+
+Learn PowerShell in Less Than 2 Hours - Channel: James Tyler  
+- https://www.youtube.com/watch?v=ZOoCaWyifmI&t=462s  
+
 
 
 
