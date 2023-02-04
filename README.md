@@ -14,6 +14,8 @@ There are two main Powershell versions...
 
 Powershell ISE/Integrated Scripting Environment...which makes it easier to write/debug longer scripts...as opposed to running shor snippets of code.
 
+The ISE allows you to start typing a letter: 'a'...and, then, it uses intellisense to complete the cmdlet you might be searching for: add/active/-etc.  
+
 ## Powershell Help
 
 Get-Help
