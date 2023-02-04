@@ -14,6 +14,16 @@ There are two main Powershell versions...
 
 Powershell ISE/Integrated Scripting Environment...which makes it easier to write/debug longer scripts...as opposed to running shor snippets of code.
 
+## Powershell Help
+
+Get-Help
+
+Get-Command
+
+Get-Alias
+
+Each of the above commands will get you Powershell Help.
+
 ## Installation
 
 ### Install: WSL/Windows Subsystem for Linux
