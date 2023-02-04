@@ -16,6 +16,12 @@ Powershell ISE/Integrated Scripting Environment...which makes it easier to write
 
 The ISE allows you to start typing a letter: 'a'...and, then, it uses intellisense to complete the cmdlet you might be searching for: add/active/-etc.  
 
+## Powershell Version
+
+$PSVersionTable.PSVersion
+
+...will show you what is the current version of Powershell you are using.
+
 ## Powershell Help
 
 Get-Help
