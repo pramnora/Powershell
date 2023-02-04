@@ -30,6 +30,28 @@ $PSVersionTable.PSVersion
 
 ...will show you what is the current version of Powershell you are using.
 
+## Powershell output
+
+Write-Host "Hello, world!"    
+Write-Output "Hello, world!"  
+Echo "Hello, world!"  
+
+...each of the above is equivalent.
+
+## Powershell variables
+
+- giving variables a value...  
+
+set testVar1 anytext  
+$testVar2 = "Words containing spaces should be double quoted."  
+
+- displaying the variable value on screen...   
+
+echo testVar1  
+write testVar2   
+
+...each of the above is equivalent; meaning, both echo/write are, in fact, aliases for cmdlet: Write-Output.     
+
 ## Powershell Help
 
 Get-Help
