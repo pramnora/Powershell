@@ -20,8 +20,7 @@ The ISE allows you to start typing a letter: 'a'...and, then, it uses intellisen
 
 $PSVersionTable.PSVersion
 
->>Major Minor Build Revision  
->>----- ----- ----- --------  
+>>Major Minor Build Revision    
 >>5     1     19041  2364  
 
 ...will show you what is the current version of Powershell you are using.
