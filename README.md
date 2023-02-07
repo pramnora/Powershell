@@ -124,7 +124,7 @@ and, therefore, it must be carefully noted that such variables are NOT permanent
 
 ## Environment variables...  
 
-$Env:WinDir  
+$Env:WinDir -> (output: C:\Windows)  
 
 ## Powershell Directory listing  
 
