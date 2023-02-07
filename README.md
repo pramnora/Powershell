@@ -75,6 +75,8 @@ $testVar2 = "Words containing spaces should be double quoted."
 echo $testVar1  
 write $testVar2   
 
+...each of the above is equivalent; meaning, both 'echo/write' are, in fact, aliases for cmdlet: Write-Output.     
+
 **NOTE**: You do not need to using any 'echo/write' prefix in order to view a variables value;    
 instead, just simply typing in the variable name all by itself...with a prefix dollar sign: $...;   
 will, automatically, output that variables value. Eg.  
@@ -85,8 +87,6 @@ $testVar3 -> (outputs: any text goes inside here)
 **NOTE**: Because, Powershell is NOT 'case sensitive'...therefore, the following line will also work:  
 
 $testvar3 -> (outputs: any text goes inside here)   
-
-...each of the above is equivalent; meaning, both 'echo/write' are, in fact, aliases for cmdlet: Write-Output.     
 
 **NOTE**: When displaying a variable value...you must remember to include the preceeding dollar sign symbol: $VarName/      
 otherwise, all you will get displayed back as output is just merely a string literal/and, NOT the variable's value.   
@@ -116,6 +116,11 @@ sv a 1  -> (set variable a with the value: 1)
 gv a -> (get-variable a/output: 1)  
 sv a 2 -> (re-sets the variable a with a new 'updated' value: 2)    
 gv a -> (get-variable a/output: 2)  
+
+**NOTE**: Setting a session variable's value...will only last up until the moment  
+whenever the user chooses to close down their Powershell window;      
+after that event all session variables will be completely discarded;  
+and, therefore, it must be carefully noted that such variables are NOT permanent.    
 
 ## Environment variables...  
 
