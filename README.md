@@ -80,6 +80,10 @@ write $testVar2
 **NOTE**: When displaying a variable value...you must remember to include the preceeding dollar sign symbol: $VarName/    
 otherwise, all you will get displayed back as output is just merely a string literal/and, NOT the variable's value.   
 
+nv -> new variable  
+clv -> clear variable  
+gv -> get variable  
+
 ## Powershell Directory listing  
 
 dir  
