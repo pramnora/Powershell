@@ -23,10 +23,19 @@ The ISE allows you to start typing a letter: 'a'...and, then, it uses intellisen
 
 ## Powershell Version
 
-$PSVersionTable.PSVersion
+6th Feb 2023...(old version 5)...  
 
->>Major Minor Build Revision    
+$PSVersionTable.PSVersion  
+
+>>Major Minor Build Revision      
 >>5     1     19041  2364  
+
+7th Feb 2023...(new version 7)...  
+
+$PSVersionTable.PSVersion  
+
+>>Major Minor Patch PreReleaseLabel BuildLabel  
+>>7 3 2  
 
 ...will show you what is the current version of Powershell you are using.
 
@@ -114,6 +123,12 @@ notepad.exe file01.txt
 
 Try the new cross platform Powershell...  
 - https://aka.ms/pscore6  
+
+Github link...  
+- https://github.com/PowerShell/PowerShell  
+
+Microsoft...  
+- https://learn.microsoft.com/en-gb/powershell/scripting/install/installing-powershell?view=powershell-7.3  
 
 ### YouTube Videos
 
