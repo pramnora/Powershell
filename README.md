@@ -84,6 +84,10 @@ nv -> new variable
 clv -> clear variable  
 gv -> get variable  
 
+## Environment variables...  
+
+$Env:WinDir  
+
 ## Powershell Directory listing  
 
 dir  
