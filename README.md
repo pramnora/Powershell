@@ -132,6 +132,8 @@ Learn PowerShell in Less Than 2 Hours - Channel: James Tyler
 Microsoft PowerShell for Beginners - Video 1 Learn PowerShell - Channel: Shane Young  
 - https://www.youtube.com/watch?v=IHrGresKu2w&list=PLCGGtLsUjhm2k22nFHHdupAK0hSNZVfXi  
 
+Learn PowerShell: Episode 1, The Basics - Channel: ABMedia  
+- https://www.youtube.com/watch?v=hXwVm3vC-10  
 
 
 
