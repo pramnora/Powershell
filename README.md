@@ -82,6 +82,10 @@ Get-Command
 
 Get-Alias
 
+Get-Process
+
+Get-Service
+
 Each of the above commands will get you Powershell Help.
 
 ## Installation
