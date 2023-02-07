@@ -95,6 +95,7 @@ nv -> new variable
 sv -> set variable  
 clv -> clear variable  
 gv -> get variable  
+rv -> remove variable  
 
 nv a  -> (crate a new variable/with an 'empty' value)    
 sv a 1 -> (set variable/giving it the value of: 1)  
