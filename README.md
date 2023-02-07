@@ -30,6 +30,21 @@ $PSVersionTable.PSVersion
 
 ...will show you what is the current version of Powershell you are using.
 
+## Powershell Help
+
+Get-Help
+
+Get-Command
+
+Get-Alias
+
+Get-Process
+
+Get-Service
+
+Each of the above commands will get you Powershell Help;  
+or else, show a list of commands that it's possible to get further help on.  
+
 ## Powershell output
 
 Write-Host "Hello, world!"    
@@ -81,20 +96,6 @@ type file01.text
 If you need to edit/change the file...you can use:  
 
 notepad.exe file01.txt  
-
-## Powershell Help
-
-Get-Help
-
-Get-Command
-
-Get-Alias
-
-Get-Process
-
-Get-Service
-
-Each of the above commands will get you Powershell Help.
 
 ## Installation
 
