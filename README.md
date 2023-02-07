@@ -81,8 +81,23 @@ write $testVar2
 otherwise, all you will get displayed back as output is just merely a string literal/and, NOT the variable's value.   
 
 nv -> new variable  
+sv -> set variable  
 clv -> clear variable  
 gv -> get variable  
+
+nv a  -> (crate a new variable/with an 'empty' value)    
+sv a 1 -> (set variable/giving it the value of: 1)  
+gv a -> 1 (get variable/and, display it's value: 1)    
+clv a -> (clear variable/making it empty)  
+gv a -> (variable a, now has an 'empty' value)  
+
+**NOTE**: When giving a variable a string value...; and, the variable consists of multiple words which includes spaces;  
+then, it's necessary to surround that variable inside a pair of quote marks. Eg.
+
+sv a hello  
+gv a -> (outputs: hello)   
+sv a hello world (doesn't work?! Error message...)    
+sv a "hello, world!" -> (outputs: hello, world!)  
 
 ## Environment variables...  
 
