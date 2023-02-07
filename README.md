@@ -56,6 +56,14 @@ write $testVar2
 **NOTE**: When displaying a variable value...you must remember to include the preceeding dollar sign symbol: $VarName/    
 otherwise, all you will get displayed back as output is just merely a string literal/and, NOT the variable's value.   
 
+## Powershell Directory listing  
+
+dir  
+ls   
+...both are equivalent. You can also try...
+ls Format-Table  
+ls Format-List  
+
 ## Powershell Filing
 
 Dir > file01.txt  
