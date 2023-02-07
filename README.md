@@ -100,8 +100,9 @@ rv -> remove variable
 nv a  -> (crate a new variable/with an 'empty' value)    
 sv a 1 -> (set variable/giving it the value of: 1)  
 gv a -> 1 (get variable/and, display it's value: 1)    
-clv a -> (clear variable/making it empty)  
-gv a -> (variable a, now has an 'empty' value)  
+clv a -> (clear variable/making it empty)   
+gv a -> (variable a, now has an 'empty' value)   
+rv a -> (Error message: Variable a no longer recognised)  
 
 **NOTE**: When giving a variable a string value...; and, the variable consists of multiple words which includes spaces;  
 then, it's necessary to surround that variable inside a pair of quote marks. Eg.
