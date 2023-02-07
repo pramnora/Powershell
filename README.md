@@ -99,6 +99,13 @@ gv a -> (outputs: hello)
 sv a hello world (doesn't work?! Error message...)    
 sv a "hello, world!" -> (outputs: hello, world!)  
 
+**NOTE**: Setting a variable name which already exists...; means, to over write it's previous value. Eg.  
+
+sv a 1  -> (set variable a with the value: 1)  
+gv a -> (get-variable a/output: 1)  
+sv a 2 -> (re-sets the variable a with a new 'updated' value: 2)    
+gv a -> (get-variable a/output: 2)  
+
 ## Environment variables...  
 
 $Env:WinDir  
