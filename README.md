@@ -75,9 +75,20 @@ $testVar2 = "Words containing spaces should be double quoted."
 echo $testVar1  
 write $testVar2   
 
+**NOTE**: You do not need to using any 'echo/write' prefix in order to view a variables value;    
+instead, just simply typing in the variable name all by itself...with a prefix dollar sign: $...;   
+will, automatically, output that variables value. Eg.  
+
+$testVar3 = "any text goes inside here"  
+$testVar3 -> (outputs: any text goes inside here)  
+
+**NOTE**: Because, Powershell is NOT 'case sensitive'...therefore, the following line will also work:  
+
+$testvar3 -> (outputs: any text goes inside here)   
+
 ...each of the above is equivalent; meaning, both 'echo/write' are, in fact, aliases for cmdlet: Write-Output.     
 
-**NOTE**: When displaying a variable value...you must remember to include the preceeding dollar sign symbol: $VarName/    
+**NOTE**: When displaying a variable value...you must remember to include the preceeding dollar sign symbol: $VarName/      
 otherwise, all you will get displayed back as output is just merely a string literal/and, NOT the variable's value.   
 
 nv -> new variable  
