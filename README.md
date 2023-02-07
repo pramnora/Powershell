@@ -75,7 +75,10 @@ otherwise, all you will get displayed back as output is just merely a string lit
 
 dir  
 ls   
-...both are equivalent. You can also try...  
+
+...both are equivalent in listing out all that's available inside of the current directory folder...;   
+including all folders/files. You can also try...  
+
 ls Format-Table  
 ls Format-List  
 
