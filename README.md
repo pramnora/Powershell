@@ -75,7 +75,7 @@ otherwise, all you will get displayed back as output is just merely a string lit
 
 dir  
 ls   
-...both are equivalent. You can also try...
+...both are equivalent. You can also try...  
 ls Format-Table  
 ls Format-List  
 
